@@ -1,0 +1,34 @@
+.channel {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  background-color: var(--dark-primary);
+}
+
+.channel__logo{
+  display: flex;
+  height: 120px !important;
+  width: 120px !important;
+  margin: 20px;
+}
+
+.channel__details {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.channel__details > h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.channel__details > p{
+  background-color: transparent;
+}
+
+.verified {
+  background-color: transparent;
+}

@@ -1,0 +1,29 @@
+.recommendedVideos {
+    flex: 0.8;
+    background-color: var(--primary);
+    padding: 20px 20px;
+    padding-bottom: 0;
+}
+
+.recommendedVideos > h2 {
+    background-color: transparent;
+    color: var(--dark-secondary);
+    margin-bottom: 20px;
+}
+
+.recommendedVideos__videos {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: var(--primary);
+}
+
+/* Make the video's h4 tag teal when I hover on the video */
+.recommendedVideos__videos > .video:hover > .video__info > h4 {
+    color: teal;
+}
+/* Make the video images englarge when I hover over them */
+.recommendedVideos__videos > .video:hover > .video__image {
+    transform: scale(1.1);
+}

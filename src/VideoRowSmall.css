@@ -1,0 +1,39 @@
+.videoRowSmall {
+  display: flex;
+  margin-bottom: 10px;
+  max-width: 700px;
+  background-color: transparent;
+}
+
+.videoRowSmall:hover {
+  cursor: pointer;
+}
+
+.videoRowSmall > img {
+  object-fit: cover;
+  max-width: 300px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: transparent;
+  margin: 15px;
+}
+
+.videoRowSmall__text {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.videoRowSmall__text, .videoRowSmall__text > h4, .videoRowSmall__text > p {
+  background-color: transparent;
+}
+
+.videoRowSmall__headline {
+  font-size: 12px;
+}
+
+.videoRowSmall__description {
+  margin-top: 20px;
+  font-size: 12px;
+  background-color: transparent;
+}

@@ -1,0 +1,77 @@
+.viewPage {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.viewPage__left {
+  flex: 0.7;
+}
+
+.viewPage, .viewPage > h3, .viewPage > iframe, .viewPage > p {
+  background-color: var(--dark-primary);
+}
+
+.spotify {
+  border-radius: 10px;
+  width: 90%;
+  margin: 60px 20px 0px 20px;
+  height: 200px;
+}
+
+.viewPage__video {
+  margin: 20px 0 20px 20px;
+  border-radius: 10px;
+}
+
+.viewPage__avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 10px 10px 10px 20px;
+  object-fit: cover;
+}
+
+.viewPage__channelInfo {
+  display: flex;
+}
+
+.viewPage__channelInfo_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.channel_and_subscribers {
+  margin: 0 0 10px 10px;
+}
+
+.channel_and_subscribers > h4 {
+  color: white;
+}
+
+.viewPage__videoInfo {
+  width: 500px;
+  background-color: rgb(10, 80, 80);
+  /* background-color: linear-gradient(to right, rgb(96, 128, 0), #6c1fb4); */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.viewPage__videoInfo > p, .views_and_timestamp, .views_and_timestamp > p {
+  background-color: transparent;
+}
+
+.views_and_timestamp {
+  display: flex;
+}
+
+.views_and_timestamp > p {
+  margin-right: 20px;
+}
+
+.viewPage__right, .viewPage__right > h3, .viewPage__right > div, .viewPage__right > p {
+  background-color: var(--primary);
+  flex: 0.3;
+}

@@ -1,0 +1,29 @@
+.videoRow {
+  display: flex;
+  margin-bottom: 30px;
+  max-width: 700px;
+  background-color: var(--dark-primary);
+}
+
+.videoRow > img {
+  object-fit: cover;
+  max-width: 300px;
+  height: 180px;
+  border-radius: 5px;
+  background-color: var(--dark-primary);
+  margin-right: 15px;
+}
+
+.videoRow__text, .videoRow__text > h3, .videoRow__text > p {
+  background-color: var(--dark-primary);
+}
+
+p {
+  font-size: 12px;
+}
+
+.videoRow__description {
+  margin-top: 20px;
+  font-size: 12px;
+  background-color: var(--dark-primary);
+}

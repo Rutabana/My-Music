@@ -1,0 +1,53 @@
+.search {
+  flex: 0.8;
+  padding: 20px 20px;
+  background-color: var(--dark-primary);
+  border-radius: 10px 0 0 0 ;
+}
+
+.search > hr {
+  height: 1px;
+  border: 0;
+  background-color: #333;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.search__filter {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  font-size: x-small !important;
+}
+
+.search__icon {
+  background-color: transparent;
+  color: var(--dark-yellow);
+  display: flex;
+}
+
+.search__icon:hover {
+  color: teal;
+}
+
+.search__title {
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+.search__channels {
+  background-color: transparent;
+}
+
+.search__videos {
+  background-color: transparent;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  cursor: pointer;
+}
